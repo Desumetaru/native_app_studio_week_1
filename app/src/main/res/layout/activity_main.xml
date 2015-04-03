@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#000011"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_text"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:layout_marginBottom="300dp"
+        android:layout_marginTop="100dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_1_text"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_color"
+            android:padding="15dp"
+            android:onClick="Button1Click"
+            android:id="@+id/button_1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_2_text"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_color"
+            android:padding="15dp"
+            android:onClick="Button2Click"
+            android:id="@+id/button_2"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_3_text"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_color"
+            android:padding="15dp"
+            android:onClick="Button3Click"
+            android:id="@+id/button_3"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_4_text"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_color"
+            android:padding="15dp"
+            android:onClick="Button4Click"
+            android:id="@+id/button_4"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
